@@ -1,8 +1,9 @@
+import Pagination from "components/Pagination";
 import React from "react";
 
 function Listening(){
     return(
-        <h1>Página de listagem</h1>
+        <Pagination />
     );
 }
 export default Listening;
